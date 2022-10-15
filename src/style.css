@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* _____________________________FONTE_____________________ */
+  /* ____________ MOBIL ______________*/
+
+}
+
+@layer components {
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-family: 'jeanne-moderno-geometrique', sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+  }
+  /* ____________ WEB ______________*/
+  @media only screen and (min-width: 600px) {
+  }
+}
