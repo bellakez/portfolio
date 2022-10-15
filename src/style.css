@@ -1,19 +1,44 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 @layer base {
   /* _____________________________FONTE_____________________ */
-  /* ____________ MOBIL ______________*/
-
+  h1 {
+    font-family: "jeanne-moderno-geometrique", sans-serif;
+  }
+  h2 {
+    font-family: "jeanne-moderno-geometriqu", sans-serif;
+  }
+  h3 {
+    font-family:  "jeanne-moderno-geometriqu", sans-serif;
+  }
+  p {
+    font-family: "arial", sans-serif;
+  }
 }
 
 @layer components {
   @media only screen and (max-width: 600px) {
     h1 {
-      font-family: 'jeanne-moderno-geometrique', sans-serif;
+      font-family: "jeanne-moderno-geometrique", sans-serif;
       font-weight: 600;
       font-style: normal;
+      font-size: 1.4rem;
+    }
+    h2 {
+      font-family: 'jeanne-moderno', serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 1.3rem;
+    }
+    h3 {
+      font-family: 'jeanne-moderno-titling', serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 1.1rem;
+    }
+    p {
+      font-size: 0.9rem;
     }
   }
   /* ____________ WEB ______________*/
